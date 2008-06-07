@@ -1,0 +1,27 @@
+
+ Arial = etc/fonts/arial.ttf
+ Dialog = etc/fonts/times.ttf
+
+ Arial Black = etc/fonts/ariblk.ttf
+
+ Comic Sans MS = etc/fonts/comic.ttf
+ Comic         = etc/fonts/comic.ttf
+
+ Courier New     = etc/fonts/cour.ttf
+ Courier New CYR = etc/fonts/cour.ttf
+ Courier         = etc/fonts/cour.ttf
+
+ Impact = etc/fonts/impact.ttf
+
+ Tahoma = etc/fonts/tahoma.ttf
+
+ Times New Roman = etc/fonts/times.ttf
+ Times           = etc/fonts/times.ttf
+
+ Verdana = etc/fonts/verdana.ttf
+
+ Symbol   /256   = etc/fonts/u7symbol.ttf
+ Wingdings /257 = etc/fonts/u7wingding.ttf
+# MT Extra /2  = etc/fonts/mtextra.ttf
+
+ Euclid = etc/fonts/euclid.ttf

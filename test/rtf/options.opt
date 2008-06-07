@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <options>
+    <option name="encoding" value="UTF-8"/>
+    <option name="debugging"        value="n"/>
+    <option name="tracing"          value="n"/>
+    <option name="skip-tracing"     value="n"/>
+    <option name="flush-tracing"    value="n"/>
+    <option name="debug-rtf-tables" value="n"/>
+    <option name="dump-info"        value="y"/>
+    <option name="dump-stylesheet"  value="y"/>
+    <option name="dump-all-fields"  value="n"/>
+    <option name="auto-pictures"    value="y"/>
+    <option name="trace-fonts"      value="n"/>
+    <option name="dump-shapes"      value="n"/>
+    <option name="draw-shapes"      value="y"/>
+    <option name="debug-lists"      value="n"/>
+    <option name="plain-output"     value="n"/>
+    <option name="guess-div-labels" value="y"/>
+    <option name="converter-host"   value="127.0.0.1"/>
+  </options>
+  <style-aliases>
+    <!-- inlines -->
+    <style name="s-code" alias="Шрифт исходного кода"/>
+    <style name="s-code" alias="Шрифт исх. кода"/>
+    <style name="s-param" alias="Параметр"/>
+    <style name="s-def" alias="Шрифт примечания"/>
+    <style name="s-def" alias="Пункт определения"/>
+    <style name="s-file" alias="Шрифт назв. файла"/>
+    <style name="s-item" alias="annotation text"/>
+    <style name="s-equip" alias="Шрифт назв. оборудования"/>
+    <style name="s-item" alias="Название предмента"/>
+    <style name="s-math" alias="Мат. обозначение"/>
+    <style name="s-name" alias="Шрифт имени"/>
+    <style name="s-abbrev" alias="Сокращение"/>
+    <style name="s-name" alias="Надписи"/>
+    <style name="s-prog" alias="Шрифт. назв. программы"/>
+    <style name="s-url" alias="Интернет-ссылка"/>
+    <style name="s-url" alias="Hyperlink"/>
+    <!-- tables -->
+    <style name="t-cell" alias="Ячейка таблицы"/>
+    <style name="t-cell-sml" alias="Мелкая таблицы"/>
+    <style name="t-cell-c" alias="Элемент таблицы"/>
+    <style name="t-cell-c" alias="Середина таблицы"/>
+    <style name="t-cell-c" alias="Список ГДС"/>
+    <style name="t-cell-c-sml" alias="Мелкая середина таблицы"/>
+    <style name="t-head" alias="Шапка таблицы"/>
+    <style name="t-head-sml" alias="Шапка мелкой табл."/>
+    <!-- lists -->
+    <style name="l-letter" alias="Список с буквами"/>
+    <style name="l-letter" alias="Список букв-скобок"/>
+    <style name="l-bracket" alias="Список со скобкой"/>
+    <style name="l-bracket" alias="Пункты со скобкой"/>
+    <style name="l-number" alias="Список с номерами"/>
+    <style name="l-number" alias="List 2"/>
+    <style name="l-bullet" alias="Перечисление с маркером"/>
+    <style name="l-bullet" alias="Перечисление с маркером-2"/>
+    <style name="l-bullet" alias="Список с маркером"/>
+    <style name="l-code" alias="Исходный код"/>
+    <style name="l-code" alias="команды"/>
+    <style name="l-code-sml" alias="Мелкий исх. код"/>
+    <style name="l-toc1" alias="toc 1"/>
+    <style name="l-toc2" alias="toc 2"/>
+    <style name="l-toc3" alias="toc 3"/>
+    <style name="l-toc4" alias="toc 4"/>
+    <style name="l-toc5" alias="toc 5"/>
+    <style name="l-toc6" alias="toc 6"/>
+    <style name="l-toc7" alias="toc 7"/>
+    <style name="l-toc8" alias="toc 8"/>
+    <!-- divisions -->
+    <style name="d-head1" alias="heading 1"/>
+    <style name="d-head2" alias="heading 2"/>
+    <style name="d-head3" alias="heading 3"/>
+    <style name="d-head4" alias="heading 4"/>
+    <style name="d-head5" alias="heading 5"/>
+    <style name="d-head6" alias="heading 6"/>
+    <style name="d-head7" alias="heading 7"/>
+    <style name="d-head8" alias="heading 8"/>
+    <style name="d-sub1" alias="заголовок приложения"/>
+    <style name="d-sub1" alias="heading 8"/>
+    <style name="d-sub1" alias="Подраздел1"/>
+    <style name="d-sub2" alias="Подраздел2"/>
+    <!-- paragraphs -->
+    <style name="p-para" alias="Normal"/>
+    <style name="p-para" alias="Body Text"/>
+    <style name="p-para" alias="Body Text 2"/>
+    <style name="p-para" alias="Абзац статьи"/>
+    <style name="p-para" alias="Тело документа"/>
+    <style name="p-para" alias="NNN"/>
+    <style name="p-center" alias="Формула в статье"/>
+    <style name="p-indent" alias="Normal Indent"/>
+    <style name="p-indent" alias="Абзац с отступом"/>
+    <style name="p-comment" alias="Курсивный отступ"/>
+    <style name="p-comment" alias="Подсказка основной"/>
+    <style name="p-caption" alias="caption"/>
+    <style name="p-signature" alias="Подпись руководителя"/>
+    <style name="p-doc-title" alias="Заголовок Документа"/>
+    <style name="p-doc-title" alias="Заголовок документа"/>
+    <style name="p-doc-title" alias="заголовок раздела"/>
+    <style name="p-title-footer" alias="Низ титульного листа"/>
+    <style name="p-pageno" alias="page number"/>
+    <style name="p-header" alias="Верхний колонтитул"/>
+    <style name="p-header" alias="Верхний Колонтитул"/>
+    <style name="p-header" alias="header"/>
+    <style name="p-header" alias="footer"/>
+  </style-aliases>
+  <subst-rules>
+    <!-- inlines -->
+    <subst name="s-abbrev" tag="abbrev"/>
+    <subst name="s-code" tag="function"/>
+    <subst name="s-def" tag="replaceable"/>
+    <subst name="s-equip" tag="hardware"/>
+    <subst name="s-file" tag="filename"/>
+    <subst name="s-item" tag="systemitem"/>
+    <subst name="s-math" tag="constant"/>
+    <subst name="s-name" tag="varname"/>
+    <subst name="s-param" tag="parameter"/>
+    <subst name="s-prog" tag="application"/>
+    <subst name="s-url" tag="ulink"/>
+    <!-- paragraphs -->
+    <subst name="p-para" tag="para"/>
+    <subst name="p-center" tag="para" role="centered"/>
+    <subst name="p-indent" tag="note"/>
+    <subst name="p-comment" tag="remark"/>
+    <subst name="p-caption" tag="para" role="caption"/>
+    <subst name="p-pageno" tag="footnote" role="pageno"/>
+    <subst name="d-sub1" tag="para" role="subsection1"/>
+    <subst name="d-sub2" tag="para" role="subsection2"/>
+    <!-- tables -->
+    <subst name="t-cell" tag="para"/>
+    <subst name="t-cell-sml" tag="para"/>
+    <subst name="t-cell-c" tag="para"/>
+    <subst name="t-cell-c-sml" tag="para"/>
+    <subst name="t-head" tag="para"/>
+    <subst name="t-head-sml" tag="para"/>
+  </subst-rules>
+  <list-rules>
+    <list name="l-code" parent="synopsis" num="ignore"/>
+    <list name="l-code-sml" parent="synopsis" parent-role="small" num="ignore"/>
+    <list name="l-bullet" parent="itemizedlist" parent-role="bullet" child="listitem" item="simpara" num="strip"/>
+    <list name="l-bracket" parent="orderedlist" parent-role="bracket" child="listitem" item="simpara" num="num"/>
+    <list name="l-letter" parent="orderedlist" parent-role="letter" child="listitem" item="simpara" num="num"/>
+    <list name="l-number" parent="orderedlist" parent-role="number" child="listitem" item="simpara" num="num"/>
+    <list name="p-signature" parent="epigraph" parent-role="credits" item="para" num="none"/>
+    <list name="p-doc-title" parent="epigraph" parent-role="title" item="para" num="none"/>
+    <list name="p-title-footer" parent="epigraph" parent-role="copyright" item="para" num="none"/>
+  </list-rules>
+  <div-rules>
+    <div name="d-head1" level="1" tag="sect1" num="num"/>
+    <div name="d-head2" level="2" tag="sect2" num="num"/>
+    <div name="d-head3" level="3" tag="sect3" num="num"/>
+    <div name="d-head4" level="4" tag="sect4" num="num"/>
+    <div name="d-head5" level="5" tag="sect5" num="num"/>
+    <div name="d-head6" level="6" tag="simplesect" role="sect6" num="num"/>
+    <div name="d-head7" level="7" tag="simplesect" role="sect7" num="num"/>
+    <div name="d-head8" level="8" tag="simplesect" role="sect8" num="num"/>
+  </div-rules>
+</config>
